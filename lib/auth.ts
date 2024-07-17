@@ -10,7 +10,6 @@ class CustomError extends CredentialsSignin {
 
 export const { auth, signOut, handlers, signIn } = NextAuth({
     secret: env.NEXTAUTH_SECRET,
-
     session: {
         strategy: 'jwt',
     },
