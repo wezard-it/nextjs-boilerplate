@@ -32,6 +32,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 We use [Shadcn/Ui](https://ui.shadcn.com/docs) as a reference for build the component libraries.
 
 This is the folder structure to maintain across projects.
+
+```bash
 .
 ├── app/
 │ └── routes/
@@ -79,9 +81,11 @@ This is the folder structure to maintain across projects.
 ├── foo-types.ts
 ├── bar-types.ts
 └── foobar-types.ts
+```
 
 to use this as a boilerplate run
 
-```create-next-app --example https://github.com/wezard-it/nextjs-boilerplate
+```bash
+create-next-app --example https://github.com/wezard-it/nextjs-boilerplate
 
 ```
