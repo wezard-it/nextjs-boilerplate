@@ -79,3 +79,9 @@ This is the folder structure to maintain across projects.
 ├── foo-types.ts
 ├── bar-types.ts
 └── foobar-types.ts
+
+to use this as a boilerplate run
+
+```create-next-app --example https://github.com/wezard-it/nextjs-boilerplate
+
+```
