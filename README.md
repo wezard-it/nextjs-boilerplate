@@ -55,7 +55,7 @@ This is the folder structure to maintain across projects.
 ├── config/ # all file of config should fall under this folder
 │ ├── routes.ts # all the routes of the application.
 │ ├── navigation.ts # the config behind the navigation menu across the app (sidebar, navbar, etc)
-│ └── stripe.ts # eventual configuration of [Stripe](https://docs.stripe.com/)
+│ └── stripe.ts # eventual configuration of Stripe
 ├── lib/
 │ ├── actions/ # should be atomized based on needs.
 │ │ ├── actions-1.ts
@@ -65,8 +65,8 @@ This is the folder structure to maintain across projects.
 │ │ ├── sdk-1.ts
 │ │ ├── sdk-2.ts
 │ │ └── ....
-│ ├── auth.ts(next-auth) # [Auth.js](https://authjs.dev/) base configuration
-│ ├── validation.ts # [Zod](https://zod.dev/) validation schema for forms
+│ ├── auth.ts(next-auth) # Auth.js base configuration
+│ ├── validation.ts # Zod validation schema for forms
 │ ├── utils.ts # General utils shared across application
 │ ├── locale.ts
 │ └── places.ts
@@ -82,6 +82,22 @@ This is the folder structure to maintain across projects.
 ├── bar-types.ts
 └── foobar-types.ts
 ```
+
+# Useful docs && repo
+
+[Zod](https://zod.dev/)
+[Auth.js](https://authjs.dev/)
+[Stripe](https://docs.stripe.com/)
+[next-video](https://github.com/muxinc/next-video)
+Next video is a react component for adding video to your next.js application. It extends both the html video element and your Next app with features for automatic video optimization.
+[DnD-kit](https://github.com/clauderic/dnd-kit)
+A drag and drop toolkit for react.
+[Prisma](https://github.com/prisma/prisma)
+A ORM for app directly connected to db.
+[Prismic](https://github.com/prismicio)
+A CMS for content-oriented app.
+[Zustand](https://github.com/pmndrs/zustand)
+A Atomic state manager
 
 to use this as a boilerplate run
 
