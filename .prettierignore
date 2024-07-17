@@ -1,0 +1,7 @@
+.next
+.cache
+pnpn-lock.yaml
+public
+node_modules
+next-env.d.ts
+next.config.mjs
