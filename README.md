@@ -85,19 +85,19 @@ This is the folder structure to maintain across projects.
 
 # Useful docs && repo
 
-[Zod](https://zod.dev/)
-[Auth.js](https://authjs.dev/)
-[Stripe](https://docs.stripe.com/)
-[next-video](https://github.com/muxinc/next-video)
-Next video is a react component for adding video to your next.js application. It extends both the html video element and your Next app with features for automatic video optimization.
-[DnD-kit](https://github.com/clauderic/dnd-kit)
-A drag and drop toolkit for react.
-[Prisma](https://github.com/prisma/prisma)
-A ORM for app directly connected to db.
-[Prismic](https://github.com/prismicio)
-A CMS for content-oriented app.
-[Zustand](https://github.com/pmndrs/zustand)
-A Atomic state manager
+-   [Zod](https://zod.dev/)
+-   [Auth.js](https://authjs.dev/)
+-   [Stripe](https://docs.stripe.com/)
+-   [next-video](https://github.com/muxinc/next-video)
+    Next video is a react component for adding video to your next.js application. It extends both the html video element and your Next app with features for automatic video optimization.
+-   [DnD-kit](https://github.com/clauderic/dnd-kit)
+    A drag and drop toolkit for react.
+-   [Prisma](https://github.com/prisma/prisma)
+    A ORM for app directly connected to db.
+-   [Prismic](https://github.com/prismicio)
+    A CMS for content-oriented app.
+-   [Zustand](https://github.com/pmndrs/zustand)
+    A Atomic state manager
 
 to use this as a boilerplate run
 
