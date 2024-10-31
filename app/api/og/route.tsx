@@ -1,3 +1,15 @@
+/**
+ * Handles the GET request to generate an Open Graph image.
+ *
+ * This function processes the incoming request, extracts query parameters,
+ * and generates an image response based on the presence of the `candidate` parameter.
+ *
+ * @param {Request} req - The incoming request object.
+ * @returns {Promise<ImageResponse | Response>} - Returns an ImageResponse with the generated image or a Response with an error message.
+ *
+ * @throws {Error} - Throws an error if image generation fails.
+ */
+
 import Logo from '@/public/next.svg'
 import { ImageResponse } from '@vercel/og'
 

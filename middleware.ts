@@ -1,3 +1,11 @@
+/**
+ * Middleware function to handle authentication and route redirection.
+ *
+ * This middleware checks if the user is authenticated and redirects them
+ * based on their authentication status and the route they are trying to access.
+ *
+ */
+
 import { NextResponse } from 'next/server'
 
 import { authRoutes, Routes } from '@/config/routes'

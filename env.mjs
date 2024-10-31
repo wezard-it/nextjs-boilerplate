@@ -1,3 +1,9 @@
+/**
+* Environment configuration using `@t3-oss/env-nextjs` and `zod` for validation.
+* This file is used to define the environment variables that are required by the application.
+@throws {Error} If the environment variables are not valid.
+ */
+
 import { createEnv } from '@t3-oss/env-nextjs'
 import { z } from 'zod'
 

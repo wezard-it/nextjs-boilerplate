@@ -1,3 +1,16 @@
+/**
+ * Retrieves the current authenticated user.
+ *
+ * @returns {Promise<AuthUser | null>} A promise that resolves to the authenticated user if a session exists, otherwise null.
+ * Use this when you are not sure if the session exists
+ */
+
+/**
+ * Retrieves the current authenticated user, assuming the session exists. Use this when you are sure the session exists.
+ *
+ * @returns {Promise<AuthUser>} A promise that resolves to the authenticated user.
+ */
+
 import { AuthUser } from '@/types/auth'
 import { auth } from '@/lib/auth'
 

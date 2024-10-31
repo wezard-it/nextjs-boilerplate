@@ -1,3 +1,10 @@
+/**
+ * Initializes and configures NextAuth for authentication.
+ * @function authorize - Authorizes the user with the provided credentials. Store a user object in the session (or null) and return it.
+ * @function jwt - Adds the user id to the JWT token. It is called every refresh, but user is not undefined only on login.
+ * @function session - Adds the user object to the session. It is called on every request, but user is not undefined only on login.
+ */
+
 import NextAuth, { CredentialsSignin } from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
 
